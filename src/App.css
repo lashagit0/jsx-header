@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+header{
+  padding: 0px 100px;
+  height: 50px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+.nav-links{
+  display: flex;
+  column-gap: 20px;
+}
